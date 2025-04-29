@@ -1,0 +1,15 @@
+[Unit]
+Description=Monitoring Service
+After=network.target
+
+[Service]
+User=preetam
+Group=users
+WorkingDirectory= /home/preetam/phase1T1/main
+Environment="PATH=/home/preetam/.pyenv/shims:/home/preetam/.pyenv/bin:/home/preetam/.local/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/home/preetam/.pyenv/shims/python /home/preetam/phase1T1/main/app.py
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
