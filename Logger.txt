@@ -1,8 +1,0 @@
-2025-04-29 17:03:34,364 root INFO **Start**
-2025-04-29 17:03:34,482 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2025-04-29 17:03:34,482 werkzeug INFO [33mPress CTRL+C to quit[0m
-2025-04-29 17:03:34,485 werkzeug INFO  * Restarting with stat
-2025-04-29 17:03:35,320 root INFO **Start**
-2025-04-29 17:03:35,414 werkzeug WARNING  * Debugger is active!
-2025-04-29 17:03:35,440 werkzeug INFO  * Debugger PIN: 935-162-342

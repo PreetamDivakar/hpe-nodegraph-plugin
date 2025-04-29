@@ -273,12 +273,6 @@ def perform_action():
 
 
 
-@app.route("/whoami")
-def whoami():
-    user = getpass.getuser()
-    return jsonify({"current_user": user})
-
-
 @app.route('/api/health')
 def check_health():
     return "API is working well!", 200
