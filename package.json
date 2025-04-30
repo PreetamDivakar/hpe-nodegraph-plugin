@@ -10,7 +10,7 @@
     "sign": "grafana-toolkit plugin:sign",
     "start": "yarn watch"
   },
-  "author": "Hamed Karbasi",
+  "author": "HPE",
   "license": "Apache-2.0",
   "devDependencies": {
     "@grafana/data": "latest",
